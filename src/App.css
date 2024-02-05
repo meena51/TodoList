@@ -1,0 +1,41 @@
+/* TodoList.css */
+
+.todo-container {
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.todo-input {
+  width: 70%;
+  padding: 8px;
+  margin-right: 5px;
+}
+
+.todo-button {
+  padding: 8px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.todo-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-item {
+  margin: 10px 0;
+  padding: 8px;
+  border: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+}
+
+.update-button,
+.delete-button,
+.toggle-button {
+  margin-left: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
